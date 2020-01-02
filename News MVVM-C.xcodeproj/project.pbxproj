@@ -14,6 +14,10 @@
 		2D8DAE3F23BE5E410031F340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8DAE3E23BE5E410031F340 /* Assets.xcassets */; };
 		2D8DAE4223BE5E410031F340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8DAE4023BE5E410031F340 /* LaunchScreen.storyboard */; };
 		2D8DAE4A23BE5F8C0031F340 /* NewsApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8DAE4923BE5F8C0031F340 /* NewsApiKey.swift */; };
+		2D8DAE4D23BE61BF0031F340 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8DAE4B23BE61BF0031F340 /* NewsListViewController.swift */; };
+		2D8DAE4E23BE61BF0031F340 /* NewsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D8DAE4C23BE61BF0031F340 /* NewsListViewController.xib */; };
+		2D8DAE5123BE61E30031F340 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8DAE4F23BE61E30031F340 /* NewsCollectionViewCell.swift */; };
+		2D8DAE5223BE61E30031F340 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D8DAE5023BE61E30031F340 /* NewsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		2D8DAE4123BE5E410031F340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D8DAE4323BE5E410031F340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8DAE4923BE5F8C0031F340 /* NewsApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApiKey.swift; sourceTree = "<group>"; };
+		2D8DAE4B23BE61BF0031F340 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		2D8DAE4C23BE61BF0031F340 /* NewsListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListViewController.xib; sourceTree = "<group>"; };
+		2D8DAE4F23BE61E30031F340 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D8DAE5023BE61E30031F340 /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			children = (
 				2D8DAE3523BE5E3E0031F340 /* AppDelegate.swift */,
 				2D8DAE3723BE5E3E0031F340 /* SceneDelegate.swift */,
+				2D8DAE5323BE61E80031F340 /* News List */,
 				2D8DAE3923BE5E3E0031F340 /* ViewController.swift */,
 				2D8DAE3B23BE5E3E0031F340 /* Main.storyboard */,
 				2D8DAE3E23BE5E410031F340 /* Assets.xcassets */,
@@ -68,6 +77,17 @@
 				2D8DAE4923BE5F8C0031F340 /* NewsApiKey.swift */,
 			);
 			path = "News MVVM-C";
+			sourceTree = "<group>";
+		};
+		2D8DAE5323BE61E80031F340 /* News List */ = {
+			isa = PBXGroup;
+			children = (
+				2D8DAE4B23BE61BF0031F340 /* NewsListViewController.swift */,
+				2D8DAE4C23BE61BF0031F340 /* NewsListViewController.xib */,
+				2D8DAE4F23BE61E30031F340 /* NewsCollectionViewCell.swift */,
+				2D8DAE5023BE61E30031F340 /* NewsCollectionViewCell.xib */,
+			);
+			path = "News List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +151,8 @@
 				2D8DAE4223BE5E410031F340 /* LaunchScreen.storyboard in Resources */,
 				2D8DAE3F23BE5E410031F340 /* Assets.xcassets in Resources */,
 				2D8DAE3D23BE5E3E0031F340 /* Main.storyboard in Resources */,
+				2D8DAE5223BE61E30031F340 /* NewsCollectionViewCell.xib in Resources */,
+				2D8DAE4E23BE61BF0031F340 /* NewsListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8DAE4D23BE61BF0031F340 /* NewsListViewController.swift in Sources */,
+				2D8DAE5123BE61E30031F340 /* NewsCollectionViewCell.swift in Sources */,
 				2D8DAE3A23BE5E3E0031F340 /* ViewController.swift in Sources */,
 				2D8DAE3623BE5E3E0031F340 /* AppDelegate.swift in Sources */,
 				2D8DAE3823BE5E3E0031F340 /* SceneDelegate.swift in Sources */,
